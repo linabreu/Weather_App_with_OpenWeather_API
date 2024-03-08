@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+.page-container{
+  position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  background-image: url(/public/Images/sky-bg.jpg);
+  background-size: cover;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  font-family: 'Rubik Bubbles';
+   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
+.glass{
+  background: rgba(255, 255, 255, 0.36);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(17.1px);
+  -webkit-backdrop-filter: blur(17.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.header {
+  font-family: 'Archivo Black', sans-serif;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+
+.weather-img{
+  height:75px;
+}
+
+.weather-img-small{
+  height:50px;
+}
+
+.width-90 {
+  width:90%;
+}
+
+.main-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px; 
+  margin-top:100px;
+}
+
+.content-wrap{
+  padding-bottom: 200px;
+}
+
+.big-margin {
+  margin-top: 200px;
+}
+
